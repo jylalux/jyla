@@ -1,0 +1,26 @@
+header{
+    background-color:palevioletred;
+    justify-items: center;
+}
+
+nav{
+    background-color: rgb(255, 137, 192);
+}
+main{
+    background-color: rgb(249, 170, 198);
+}
+
+footer{
+    background-color: rgb(255, 185, 245);
+}
+
+body{
+    color:darkmagenta;
+    min-width: 300px;
+    width: 70%;
+    justify-self: center;
+}
+
+header{
+    color:darkmagenta
+}
