@@ -6,15 +6,20 @@
     <title>Document</title>
     <link herf="https://fonts.googleapis.com/css2?family=baloo+2&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="final_style.css">
+    <script src="final_project.js"defer></script>
 </head>
 <body>
     <header>
-        Slime
+        <div>
+            Slime
+        </div>
     </header>
     <nav>
-        <a>Textures</a>
-        <a>Toppings</a>
-        <a>Techniques</a>
+        <button onclick="updateView('Textures')">Textures</button>
+        <button onclick="updateView('Toppings')">Toppings</button>
+        <button onclick="updateView('Techniques')">Techniques</button>
+        
+
     </nav>
     <main>
         <section>
@@ -32,10 +37,10 @@
                 noies. Now lets dive in to a world of
                 slime. 
             </p>
-        </sectio>
+        </section>
         
-        <section>
-            <h2>Txtures</h2>
+        <section id="Textures" class ="view-panel">
+            <h2>Textures</h2>
             <p> 
                 There are many diferent Textures that you
                 can use to make diferent types of slimes.
@@ -44,16 +49,19 @@
                 cream to your slime base you make fluffy 
                 slime. Fluffy slime is soft and smoth and 
                 by far my faveret. Next slime type is 
-                watter slime. Watter slime is what it is 
+                water slime. Water slime is what it is 
                 called. The main ingredeents are glue and
-                watter. Because you add so much watter 
+                water. Because you add so much watter 
                 it verry jiggaly. The last one that will 
                 be menchend is cloud slime. Cloud slime 
                 is made with insent snow wich makes it
                 wet some times.
             </p>
+            <img style="width:165px;" src="resources/cloud_slime.jpg" alt="slime">
+            <img style="width:165px;" src="resources/cloud_slime.jpg" alt="slime">
+            <img style="width:165px;" src="resources/cloud_slime.jpg" alt="slime">
         </section>
-        <section>
+        <section id="Toppings" class="view-panel">
             <h2>Toppings</h2>
             <p>
                 topping can make slimes have their own 
@@ -85,12 +93,16 @@
                     simaler things. Charms are 
                     typicaly bigger and plastic.
                     sprincals are normaley tiny
-                    and are made of clay.???? 
+                    and are made of clay. 
                 </li>
 
             </ul>
+
+            <img style="width:165px;" src="resources/charms.webp" alt="slime"> 
+            <img style="width:165px;" src="resources/charms.webp" alt="slime">
+            <img style="width:165px;" src="resources/charms.webp" alt="slime">
         </section>
-        <section>
+        <section id="Techniques" class="view-panel">
                 <h2>Techniques</h2>
                     There are many diferent techniques 
                     that people use. It also depends on 
