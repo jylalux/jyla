@@ -36,3 +36,7 @@ button:hover{
 main{
     background-color: rgb(209, 238, 254);
 }
+
+ul{
+    list-style-type:armenian;
+}
